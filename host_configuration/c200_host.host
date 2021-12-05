@@ -20,8 +20,8 @@
 {start_args,[{erl_cmd,"/lib/erlang/bin/erl -detached"},
              {cookie,"cookie"},
 	     {env_vars,[{kublet,[{mode,controller}]},
-			{dbase_infra,[{nodes,['host@c201','host@c202']}]},	
-			{bully,[{nodes,['host@c201','host@c202']}]}]},
+			{dbase_infra,[{nodes,['host@c201','host@c202','host@c100']}]},	
+			{bully,[{nodes,['host@c201','host@c202','host@c100']}]}]},
 	     {nodename,"host"}
 	    ]
 }.
