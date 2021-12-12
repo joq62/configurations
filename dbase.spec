@@ -1,3 +1,4 @@
+-include("controller.hrl").
 {db_host,?HostConfiguration,load_from_file}.
 {db_service_catalog,?ServiceCatalog,load_from_file}.
 {db_deployment,?Deployments,load_from_file}.
