@@ -2,8 +2,9 @@
 %% Information about a specific deployment
 %
 %%------------------------ applications  ----------------------
-{name,"mydivi"}.
-{vsn,"1.0.0"}.
-{application,[{mydivi,"1.0.0"},
-              {sd,"1.0.0"}]}.
+{name,"worker"}.
+{vsn,"1.0.0"}.	
+{application,[
+	      {sd,"1.0.0"}     
+            ]}.
 {needs,[]}.

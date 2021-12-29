@@ -2,8 +2,7 @@
 %% Information about a specific deployment
 %
 %%------------------------ applications  ----------------------
-{name,"mydivi_c200"}.
+{name,"infra_1"}.
 {vsn,"1.0.0"}.
-{application,[{mydivi,"1.0.0"},
-              {sd,"1.0.0"}]}.
-{needs,[{hosts,[{"c100","host1"}]}]}.
+{pod_specs,[{"infra","1.0.0"}]}.
+{affinity,[{"c100","host1"}]}.
