@@ -2,9 +2,7 @@
 %% Information about a specific deployment
 %
 %%------------------------ applications  ----------------------
-{name,"math_1"}.
+{name,"worker_c203"}.
 {vsn,"1.0.0"}.
-{pod_specs,[{"single_mymath","1.0.0"},
-	    {"mydivi","1.0.0"},
-	    {"myadd","1.0.0"}]}.
+{pod_specs,[{"worker","1.0.0"}]}.
 {affinity,[{"c203","host"}]}.
